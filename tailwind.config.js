@@ -1,7 +1,16 @@
 module.exports = {
-	purge: [],
-	mode: "jit",
-	darkMode: false, // or 'media' or 'class'
+	content: [
+		"./components/**/*.{js,vue,ts}",
+		"./layouts/**/*.vue",
+		"./pages/**/*.vue",
+		"./plugins/**/*.{js,ts}",
+		"./**/*.vue",
+		"./*.vue",
+	],
+	variants: {
+		extend: {},
+	},
+	plugins: [],
 	theme: {
 		extend: {
 			backgroundImage: {
@@ -9,8 +18,4 @@ module.exports = {
 			},
 		},
 	},
-	variants: {
-		extend: {},
-	},
-	plugins: [],
 };
