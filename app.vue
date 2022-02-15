@@ -21,7 +21,7 @@
 			<div
 				class="flex flex-col items-center justify-between h-auto px-0 py-10 mx-auto font-normal text-white bg-green-600 md:flex-row md:px-24 md:h-28"
 			>
-				<div class="mb-5 md:mb-0">&copy; 2021 Arsya Group | All rights reserved</div>
+				<div class="mb-5 md:mb-0">&copy; {{ new Date().getFullYear() }} Arsya Group | All rights reserved</div>
 				<div class="flex flex-row">
 					<div class="mr-3">
 						<img class="h-20" src="~/assets/logo-catering.png" alt="Logo Catering" />
